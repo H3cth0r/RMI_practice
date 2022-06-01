@@ -26,8 +26,8 @@ public class LotteryResultsClient
                 TimeUnit.SECONDS.sleep(2);
                 lotteryResults.set_number(i, numbers[i]);
                 lotteryResults.set_prize(i, prices[i]);
-                System.out.println("Index 0 winner: " + lotteryResults.get_number(i));
-                System.out.println("Index 0 prize: " + lotteryResults.get_prize(i));
+                System.out.println("Index " + i + " winner: " + lotteryResults.get_number(i));
+                System.out.println("Index " + i + " prize: " + lotteryResults.get_prize(i));
             }
 
         }
