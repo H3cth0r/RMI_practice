@@ -29,3 +29,7 @@ java rmiPackage.LotteryResultsClient
 ```
 
 Then the program should work as follows:
+
+
+https://user-images.githubusercontent.com/43997408/171443625-06d6bdc4-339e-4898-9ca3-bb62e8adc0ef.mp4
+
