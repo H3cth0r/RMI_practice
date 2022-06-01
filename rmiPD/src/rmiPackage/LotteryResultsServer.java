@@ -30,11 +30,11 @@ public class LotteryResultsServer
                         String new_price = lotteryResultsInterface.get_prize(i);
                         System.out.print("");
                         if (!numeros[i].equals(new_num)) {
-                            System.out.println("changed: " + new_num);
+                            System.out.println("changed number index " + i +" : " + new_num);
                             numeros[i] = new_num;
                         }
                         if (!premios[i].equals(new_price)) {
-                            System.out.println("changed: " + new_price);
+                            System.out.println("changed price index" + i + " : " + new_price);
                             premios[i] = new_price;
                         }
                     }
